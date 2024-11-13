@@ -39,6 +39,10 @@ console.log((age_sarath > age_lonas));
 console.log(age_sarath>=18);
 
 
+console.log(now - 1991 > now - 2010);
+
+
+
 
 
 
