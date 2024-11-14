@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Pathways</title>
+      <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #2d3748;
+    color: white;
+}
+
+.header .icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.pathways {
+    padding: 20px;
+}
+
+.pathway {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd700;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #ff8c00;
+}
+
+.highlighted-pathway {
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.highlighted-pathway .udemy-note {
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+.pathway-details {
+    padding: 20px;
+}
+
+.pathway-details h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2d3748;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+td:nth-child(2) {
+    color: #555;
+}
+
+      </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <div class="icon">🔄</div>
+        <h1>Course Pathways</h1>
+    </header>
+
+    <div class="pathways">
+        <div class="pathway">
+            <span class="number">1</span>
+            <p>I want to learn everything ➔ <span class="highlight">Pathway 1: Everything!</span></p>
+        </div>
+        <div class="pathway">
+            <span class="number">2</span>
+            <p>I want to learn JavaScript fast ➔ <span class="highlight">Pathway 2: Only Important Parts</span></p>
+        </div>
+        <div class="pathway">
+            <span class="number">3</span>
+            <p>I want to learn by building projects with a UI (User Interface) ➔ <span class="highlight">Pathway 3: Only Projects With UI</span></p>
+        </div>
+        <div class="pathway">
+            <span class="number">4</span>
+            <p>I only want to learn the language itself, not the DOM (UI) ➔ <span class="highlight">Pathway 4: Only Language Itself (no UI)</span></p>
+        </div>
+        <div class="pathway">
+            <span class="number">5</span>
+            <p>I only want the fundamentals to learn React/Angular/Vue next ➔ <span class="highlight">Pathway 5: Only Interested in Frameworks</span></p>
+        </div>
+        <div class="pathway">
+            <span class="number">6</span>
+            <p>I only want to prepare for a job interview ➔ <span class="highlight">Pathway 6: Job Interview Preparation</span></p>
+        </div>
+        <div class="pathway">
+            <span class="number">7</span>
+            <p>I took version 1 of the course and only want the updates ➔ <span class="highlight">Pathway 7: Only What’s New in Version 2</span></p>
+        </div>
+    </div>
+
+    <div class="pathway-details">
+        <h2>Pathway 2: Only Important Parts</h2>
+        <table>
+            <tr>
+                <th>Section</th>
+                <th>Comments</th>
+            </tr>
+            <tr>
+                <td>JavaScript Fundamentals – Part 1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>JavaScript Fundamentals – Part 2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Developer Skills & Editor Setup</td>
+                <td>You need to watch at least the first 2 lectures</td>
+            </tr>
+            <tr>
+                <td>HTML & CSS Crash Course</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>JavaScript in the Browser: DOM Manipulation Fundamentals</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>How JavaScript Works Behind the Scenes</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Data Structures, Modern Operators and Strings</td>
+                <td>Important concepts, but you can learn some of them in projects</td>
+            </tr>
+          
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
