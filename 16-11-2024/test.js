@@ -87,4 +87,3 @@ console.log(square(5));
 let num =9 ;
 
 console.log(num%2===0 ? "Even":"Odd");
-
