@@ -13,7 +13,7 @@ console.log(`x = ${x}, y = ${y} `);
 /*
  const pi = 3.14;
 
- pi = 3.1414; // if i re-assign the value in const, const does not allow re initalise and re-assign.
+ pi = 3.1414; // if i re-assign the value in const, const does not allow re -declare and re-assign.
 
 */
 
